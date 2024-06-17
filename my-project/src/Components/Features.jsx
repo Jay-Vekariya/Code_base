@@ -2,11 +2,13 @@
 
 const Features = () => {
   return (
-    <div className="flex flex-row w-full justify-center bg-cyan-800">
-      <div className="min-w-[1000px]">
-        <p className="text-center text-white text-[40px] font-serif">Features</p>
+    <div className="w-auto bg-cyan-800">
+      <div>
+        <p className="text-white xl:text-[40px] lg:text-[30px] md:text-[30px] sm:text-[30px]  font-serif text-center">Features</p>
+      </div>
+      <div className="flex flex-row justify-center">
         <img
-          className="flex flex-row  h-[570px] w-[1000px]"
+          className="h-[90%] lg:h-[70%] md:h-[40%]"
           src="Images/WB_Features.jpg"
           alt="Features"
         />

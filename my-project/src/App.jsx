@@ -5,7 +5,7 @@ import AboutUs from "./Components/AboutUs";
 // max-w-[2000px]
 const App = () => {
   return (
-    <div className="min-w-[1023px] min-h-[1000px]">
+    <div className="">
       <Homepage />
       <Features />
       <AboutUs />
